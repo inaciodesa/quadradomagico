@@ -1,0 +1,14 @@
+program QdrMagico;
+
+uses
+  Forms,
+  UnitPrincipal in 'UnitPrincipal.pas' {frmPrincipal};
+
+{$R *.RES}
+
+begin
+  Application.Initialize;
+  Application.Title := 'Quadro Mágico';
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.Run;
+end.
